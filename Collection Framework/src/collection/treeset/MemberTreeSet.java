@@ -9,6 +9,8 @@ public class MemberTreeSet {
     
     public MemberTreeSet() {
         treeSet = new TreeSet<Member>();
+        //comparator 사용 시 - TreeSet 생성자에 Comparator를 구현한 객체를 매개변수로 전달해야 함. 
+        //TreeSet<Member2> treeSet = new TreeSet<Member>(new Member2());
     }
 
     public void addMember(Member member){
